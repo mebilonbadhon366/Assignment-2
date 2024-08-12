@@ -1,0 +1,58 @@
+ 
+ @media screen and (max-width:576px){
+     
+     .nav-details{
+        display: none;
+     }
+     .nav-hamburgermenu{
+      display:block;
+      margin-top: 4%;
+      font-size: 2rem;
+  }
+  .get-container{
+   flex-direction: column;
+  }
+  .get-bodyp{
+   display: none;
+  }
+  .get-bodydesc{
+   display: block;
+   margin-bottom: 2rem;
+
+  }
+  .image{
+   display: none;
+  }
+  .image-short{
+    display: block;
+    margin-top: 10%;
+    width: 100%;
+
+  }
+  .workout{
+   margin-left: 50%;
+   margin-top: 20%;
+   height: 10%;
+   width: 30%;
+   
+  }
+  .tutorial{
+   height: 10%;
+   width: 25%;
+   margin-left: 7%;
+   margin-top: 80%;
+  }
+ .exercise-position{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 5%;
+ }
+ .exercise-position img{
+   margin-top: 20%;
+ }
+ .position-data {
+   margin-top: 10%;
+ }
+
+}
