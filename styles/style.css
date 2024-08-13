@@ -227,22 +227,52 @@ span {
     font-weight: 400;
     margin-top: 5%;
 }
+/* change your habits end here  */
 
-
+/* runmile start here  */
 
 
 .run-mile-container{
     width: 80%;
-    height:500px;
+    height:350px;
     margin: 0 auto;
    background-color: rgb(34, 34, 34);;
+   margin-top: 10%;
+   border-radius: 2rem;
 
 }
 .runmile-content{
     display: flex;
     justify-content: center;
+    gap: 6rem;
 }
-.run-image{
-    height: 50%;
-    width: 40%;
+.run-mile{
+    margin-top: 3%;
 }
+.run-mile h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.runmile-desc1{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+.runmile-desc2{
+    display: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+.run-image img{
+    width: 350px;
+    height: 312px;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+/* runmile end here  */

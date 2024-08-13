@@ -1,6 +1,6 @@
  
  @media screen and (max-width:576px){
-     
+     /* nav responsive start here  */
      .nav-details{
         display: none;
      }
@@ -9,6 +9,8 @@
       margin-top: 4%;
       font-size: 2rem;
   }
+  /* nav responsive end here  */
+  /* get container responsive start here  */
   .get-container{
    flex-direction: column;
   }
@@ -42,6 +44,8 @@
    margin-left: 7%;
    margin-top: 80%;
   }
+  /* get container responsive end here  */
+  /* exercise position responsive start here  */
  .exercise-position{
    display: flex;
    flex-direction: column;
@@ -54,5 +58,34 @@
  .position-data {
    margin-top: 10%;
  }
+/* exercise position resposive end here  */
+/* runmile responsive start here  */
+ .run-mile-container{
+  height: 700px;
+  padding: 2rem;
+  
+ }
+ .runmile-content{
+  
+  flex-direction: column;
+ }
+ .run-mile{
+  width: 150%;
+ }
+ .runmile-desc1{
+  display: none;
+ }
+ .runmile-desc2{
+  display: block;
+ }
+ .run-image img{
+  object-fit: cover;
+  width: 100%;
+  margin-top: -10%;
+ }
+/* runmile responsive end here  */
+
+
+
 
 }
