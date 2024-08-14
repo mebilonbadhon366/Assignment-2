@@ -96,7 +96,7 @@
 
 .grid-item img{
   height: 350px;
-  width: 470px;
+  width: 400px;
   /* object-fit: fill; */
   gap: 1rem;
 }
