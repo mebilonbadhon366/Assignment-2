@@ -294,7 +294,7 @@ span {
 .gym-workout-frame{
     width: 100%;
     height: 500px;
-    background-color: rgb(234, 70, 70);
+    background-color: rgb(225,225,225,0.1);
     display:flex;
     justify-content: space-around;
 }
