@@ -1,12 +1,12 @@
  
  @media screen and (max-width:576px){
-     /* nav responsive start here  */
+     /* /* nav responsive start here  */
      .nav-details{
         display: none;
      }
      .nav-hamburgermenu{
       display:block;
-      margin-top: 4%;
+      margin-top: 10%;
       font-size: 2rem;
   }
   /* nav responsive end here  */
@@ -85,7 +85,24 @@
  }
 /* runmile responsive end here  */
 
+.meet-container{
+  
+}
 
+.grid-container{
+  grid-template-columns: repeat(1,1fr);
+  
+}
+
+.grid-item img{
+  height: 350px;
+  width: 470px;
+  /* object-fit: fill; */
+  gap: 1rem;
+}
+.item{
+  margin-top: 40%;
+}
 
 
 }

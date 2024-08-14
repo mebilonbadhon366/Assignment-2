@@ -11,17 +11,15 @@ body{
     padding: 0;
 }
 .container{
-    width: 90%;
-    margin: 3rem auto;
-    background: linear-gradient(180deg rgb(0, 0, 0,2) rgb(0, 0, 0,5) rgb(185, 185, 185) 50%)
-    /* background: rgb(185, 185, 185); */
-
+    width: 100%;
+    /* margin: 3rem auto; */
+    background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     
 }
 .nav-bar{
      width: 90%;
-     /* margin: 0 auto; */
-     margin-top: 3rem;
+     margin: 0 auto;
+     /* margin-top: 3rem; */
     display: flex;
     justify-content: space-between;
 }
@@ -29,11 +27,13 @@ body{
     font-size: 36px;
     font-weight: 800;
     color: rgb(230, 83, 60);
+    margin-top: 3rem;
 }
 .nav-details{
     display: flex;
     justify-content: space-evenly;
     gap: 3rem;
+    margin-top: 3rem;
     align-items: center;
     color: rgb(255, 255, 255);
     font-weight: 400;
@@ -61,6 +61,7 @@ span {
 /* get container start here  */
 .get-container{
     width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     
@@ -187,12 +188,13 @@ span {
     margin-bottom: 10%;
     
 }
-.habits h1{
+.habits-h{
     margin-bottom: 3%;
     font-size: 2rem;
     font-weight: 900px;
+    color: rgb(255, 255, 255);
 }
-.habits p{
+.habits-p{
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
@@ -276,3 +278,71 @@ span {
 }
 
 /* runmile end here  */
+.gym-workout-container{
+    height: 700px;
+}
+.gym-workout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gym-workout-frame{
+    width: 100%;
+    background-color: rgb(234, 70, 70);
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+.meet-container{
+    width: 90%;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.meet-container h1{
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900px;
+    
+}
+.meet-container p{
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.grid-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(34,34,34);
+    gap:1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+    
+}
+.grid-item img{
+      height: 250px;
+      width: 300px;
+      object-fit:cover;
+      border-radius: 1rem;
+      /* opacity: 0.5; */
+      /* position: relative; */
+      
+      
+}
+.item{
+    position: absolute;
+    /* top: 50%; */
+    margin-top: 10rem;
+    margin-left: 1rem;
+}
