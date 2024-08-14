@@ -1,5 +1,5 @@
  
- @media screen and (max-width:576px){
+ @media screen and (max-width:576px) {
      /* /* nav responsive start here  */
      .nav-details{
         display: none;
@@ -84,25 +84,61 @@
   margin-top: -10%;
  }
 /* runmile responsive end here  */
-
-.meet-container{
+/* gym workout plan responsive start here  */
+.gym-workout-container{
+  width: auto;
+  height: 1100px;
+}
+.gym-workout-frame{
+  display: flex;
+  flex-direction: column;
+  height: 940px;
   
+
+}
+.gym-workout{
+  margin-left: 2%;
+  margin-bottom: 4%;
+}
+.routine{
+  margin-top:-2%
+}
+.bmi-h{
+  margin-top: -7%;
+}
+/* meet your team responsive start here  */
+.meet-container{
+  /* width: 80%; */
+  /* height:500px */
 }
 
 .grid-container{
+  width: 80%;
   grid-template-columns: repeat(1,1fr);
   
 }
 
 .grid-item img{
-  height: 350px;
-  width: 400px;
+  height: 300px;
+  width: 350px;
   /* object-fit: fill; */
   gap: 1rem;
+  padding-left: 2rem;
 }
 .item{
   margin-top: 40%;
+  margin-left: 10%;
+}
+/* meet your team responsive end here  */
+/* footer responsive start here  */
+.footer{
+  height: 900px;
 }
 
-
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
 }
+/* footer responsive end here  */
+ }

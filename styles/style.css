@@ -278,27 +278,73 @@ span {
 }
 
 /* runmile end here  */
+/* gym work out polan start here  */
+
 .gym-workout-container{
-    height: 700px;
+    width: 100%;
+    height: 650px;
 }
 .gym-workout{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-left: 25%;
+    margin-top: 3rem;
+}
+.gym-workout p{
+    margin-bottom: 4rem;
 }
 .gym-workout-frame{
     width: 100%;
+    height: 500px;
     background-color: rgb(234, 70, 70);
     display:flex;
     justify-content: space-around;
 }
+.routine{
+    margin-top: 3rem;
+}
 
+.table,td,th{
+    width: 50%;
+    border: 1px dotted white;
+    border-collapse: collapse;
+    margin-top: 3rem;
+}
+.bmi-h{
+    margin-top:3rem;
+}
+.bmi-p{
+    margin-top:1rem;
+}
+input[type=text],select{
+    width: 50%;
+    margin: 1rem,0;
+    display: inline-block;
+    /* box-sizing:border-box; */
+    margin-top: 2rem;
+    padding: 0.5rem,2rem;
+}
+input[type=button]{
+    width: 50%;
+    background-color: rgb(88, 7, 71);
+    color:wheat;
+    padding: 1rem 1.5rem;
+}
+.form-btn{
+    display: flex;
+    flex-direction: column;
 
+}
+.bttn {
+    margin-top: 3rem;
+    border-radius: 3rem;
+    border: none;
+}
+/* gym workout plan end here  */
+/* meet your team start here  */
 
 .meet-container{
     width: 90%;
-    height: 900px;
     margin: 0 auto;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -320,7 +366,7 @@ span {
 }
 
 .grid-container{
-    width: 90%;
+    width: 95%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color: rgb(34,34,34);
@@ -346,3 +392,52 @@ span {
     margin-top: 10rem;
     margin-left: 1rem;
 }
+
+/* meet your team end here  */
+
+/* footer start here  */
+.footer{
+    width: 100%;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+.fitness p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+
+}
+.get-started{
+    margin-top: 7%;
+}
+.get-started h1{
+    color: rgb(255, 255, 255);
+ 
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 4%;
+
+}
+.get-started p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 4%;
+    text-align: left;
+
+}
+footer hr{
+    margin-top: 10%;
+
+}
+footer p{
+    margin-top: 2%;
+    text-align: center;
+    /* align-items: center; */
+}
+/* footer end here  */
